@@ -1,6 +1,9 @@
 # graphql-ticketing-backend-service
 ## This is a graphql service created for purposes of the "Fly me to the moon" talk I held on a few meetups and conferences
 
+### Slides
+https://www.slideshare.net/FatosHoti/fly-me-to-the-moon-74180582
+
 # Prerequisites
 `node v7`
 

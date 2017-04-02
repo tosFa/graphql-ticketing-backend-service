@@ -33,19 +33,8 @@ export default async (relativeUrl, options = {}) => {
     if (e instanceof GraphQLError) {
       throw e;
     }
-    else {
-      throw new Error('123', 123);
-    }
     throw new GraphQLError(e.message, ...e);
-    // return { ...e };
+
   }
-  // return new Promise((resolve, reject) => {
-  //   fetch(`${baseUrl}${relativeUrl}`, options)
-  //     .then(res => res.json())
-  //     .then(response => resolve(response))
-  //     .catch(error => {
-  //       logatim.red.error({ error });
-  //       return reject(error);
-  //     });
-  // });
+
 }

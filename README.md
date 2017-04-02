@@ -1,6 +1,9 @@
 # graphql-ticketing-backend-service
 ##This is a graphql service created for purposes of the "Fly me to the moon" talk I held on a few meetups and conferences
 
+#Prerequisites
+`node v7`
+
 #Installation
 
 ###if you already don't have yarn installed

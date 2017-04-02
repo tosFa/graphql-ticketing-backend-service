@@ -17,6 +17,7 @@
 `yarn start`
 
 # Notes
-DB api is located in /helpers/db.js
-helpers/api.js can be used when connecting this service to an existing REST services
+DB api is located in `/helpers/db.js`
+
+`helpers/api.js` can be used when connecting this service to an existing REST services
 
